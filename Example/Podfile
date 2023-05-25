@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XYTools_Example' do
+  pod 'XYTools', :path => '../'
+
+  target 'XYTools_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
