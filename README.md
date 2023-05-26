@@ -1,9 +1,9 @@
-# XYTools
+# XYTestTools
 
-[![CI Status](https://img.shields.io/travis/Nox/XYTools.svg?style=flat)](https://travis-ci.org/Nox/XYTools)
-[![Version](https://img.shields.io/cocoapods/v/XYTools.svg?style=flat)](https://cocoapods.org/pods/XYTools)
-[![License](https://img.shields.io/cocoapods/l/XYTools.svg?style=flat)](https://cocoapods.org/pods/XYTools)
-[![Platform](https://img.shields.io/cocoapods/p/XYTools.svg?style=flat)](https://cocoapods.org/pods/XYTools)
+[![CI Status](https://img.shields.io/travis/xiangyunluan/XYTestTools.svg?style=flat)](https://travis-ci.org/xiangyunluan/XYTestTools)
+[![Version](https://img.shields.io/cocoapods/v/XYTestTools.svg?style=flat)](https://cocoapods.org/pods/XYTestTools)
+[![License](https://img.shields.io/cocoapods/l/XYTestTools.svg?style=flat)](https://cocoapods.org/pods/XYTestTools)
+[![Platform](https://img.shields.io/cocoapods/p/XYTestTools.svg?style=flat)](https://cocoapods.org/pods/XYTestTools)
 
 ## Example
 
@@ -13,17 +13,17 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-XYTools is available through [CocoaPods](https://cocoapods.org). To install
+XYTestTools is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'XYTools'
+pod 'XYTestTools'
 ```
 
 ## Author
 
-Nox, luanxiangyun@126.com
+xiangyunluan, luanxiangyun@126.com
 
 ## License
 
-XYTools is available under the MIT license. See the LICENSE file for more info.
+XYTestTools is available under the MIT license. See the LICENSE file for more info.

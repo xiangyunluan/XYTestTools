@@ -2,10 +2,10 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'XYTools_Example' do
-  pod 'XYTools', :path => '../'
+target 'XYTestTools_Example' do
+  pod 'XYTestTools', :path => '../'
 
-  target 'XYTools_Tests' do
+  target 'XYTestTools_Tests' do
     inherit! :search_paths
 
     

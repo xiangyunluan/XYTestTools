@@ -7,14 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4C8F0B4EA3BB6468E8B296CA /* Pods_XYTools_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17364BCE0FE874509CEED292 /* Pods_XYTools_Tests.framework */; };
-		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
-		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
-		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
-		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
-		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		83D3A93D70DF82EC3DFB658D /* Pods_XYTools_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFFF2E8B80A87C1976F6D01A /* Pods_XYTools_Example.framework */; };
+		907B01E92A20AA1F0093FB90 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B01E12A20AA1F0093FB90 /* ViewController.swift */; };
+		907B01EA2A20AA1F0093FB90 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 907B01E22A20AA1F0093FB90 /* LaunchScreen.xib */; };
+		907B01EB2A20AA1F0093FB90 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 907B01E42A20AA1F0093FB90 /* Main.storyboard */; };
+		907B01EC2A20AA1F0093FB90 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 907B01E62A20AA1F0093FB90 /* Images.xcassets */; };
+		907B01ED2A20AA1F0093FB90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 907B01E72A20AA1F0093FB90 /* AppDelegate.swift */; };
+		907B01EE2A20AA1F0093FB90 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 907B01E82A20AA1F0093FB90 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,25 +27,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		17364BCE0FE874509CEED292 /* Pods_XYTools_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYTools_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28040D6E5C0541324E20DB40 /* Pods-XYTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTools_Example.release.xcconfig"; path = "Target Support Files/Pods-XYTools_Example/Pods-XYTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		06F13DCD681D5D4B2E9C8CB4 /* Pods-XYTestTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTestTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYTestTools_Tests/Pods-XYTestTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		2F909EF88124891B68082EE6 /* Pods-XYTestTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTestTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYTestTools_Example/Pods-XYTestTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		36187B09FE3EC0938ECF6E48 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		368B8C2B1ED36D769DE95377 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		58131C54B95A3EC180589907 /* Pods-XYTools_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTools_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYTools_Example/Pods-XYTools_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		607FACD01AFB9204008FA782 /* XYTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		607FACD71AFB9204008FA782 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* XYTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44F89FEE35B6305B9D898E00 /* Pods-XYTestTools_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTestTools_Example.release.xcconfig"; path = "Target Support Files/Pods-XYTestTools_Example/Pods-XYTestTools_Example.release.xcconfig"; sourceTree = "<group>"; };
+		5EE6B1A682ED9FCB94027A40 /* Pods-XYTestTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTestTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYTestTools_Tests/Pods-XYTestTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		607FACD01AFB9204008FA782 /* XYTestTools_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYTestTools_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* XYTestTools_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XYTestTools_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		B86266E19A411C845F2BE747 /* Pods-XYTools_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTools_Tests.release.xcconfig"; path = "Target Support Files/Pods-XYTools_Tests/Pods-XYTools_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BDED982A53093E3667DAD516 /* XYTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYTools.podspec; path = ../XYTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BFFF2E8B80A87C1976F6D01A /* Pods_XYTools_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYTools_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F3E7C86BA05A2E9BF2B6E675 /* Pods-XYTools_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYTools_Tests.debug.xcconfig"; path = "Target Support Files/Pods-XYTools_Tests/Pods-XYTools_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		907B01E12A20AA1F0093FB90 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		907B01E32A20AA1F0093FB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		907B01E52A20AA1F0093FB90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		907B01E62A20AA1F0093FB90 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		907B01E72A20AA1F0093FB90 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		907B01E82A20AA1F0093FB90 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDED982A53093E3667DAD516 /* XYTestTools.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYTestTools.podspec; path = ../XYTestTools.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +51,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83D3A93D70DF82EC3DFB658D /* Pods_XYTools_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,7 +58,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4C8F0B4EA3BB6468E8B296CA /* Pods_XYTools_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +67,8 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				907B01E02A20AA1F0093FB90 /* XYTestTools */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for XYTools */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				BBE68A1BEDC766B454761E49 /* Pods */,
@@ -84,32 +79,10 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* XYTools_Example.app */,
-				607FACE51AFB9204008FA782 /* XYTools_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* XYTestTools_Example.app */,
+				607FACE51AFB9204008FA782 /* XYTestTools_Tests.xctest */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		607FACD21AFB9204008FA782 /* Example for XYTools */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
-				607FACD31AFB9204008FA782 /* Supporting Files */,
-			);
-			name = "Example for XYTools";
-			path = XYTools;
-			sourceTree = "<group>";
-		};
-		607FACD31AFB9204008FA782 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				607FACD41AFB9204008FA782 /* Info.plist */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		607FACE81AFB9204008FA782 /* Tests */ = {
@@ -132,18 +105,29 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				BDED982A53093E3667DAD516 /* XYTools.podspec */,
+				BDED982A53093E3667DAD516 /* XYTestTools.podspec */,
 				368B8C2B1ED36D769DE95377 /* README.md */,
 				36187B09FE3EC0938ECF6E48 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		907B01E02A20AA1F0093FB90 /* XYTestTools */ = {
+			isa = PBXGroup;
+			children = (
+				907B01E12A20AA1F0093FB90 /* ViewController.swift */,
+				907B01E22A20AA1F0093FB90 /* LaunchScreen.xib */,
+				907B01E42A20AA1F0093FB90 /* Main.storyboard */,
+				907B01E62A20AA1F0093FB90 /* Images.xcassets */,
+				907B01E72A20AA1F0093FB90 /* AppDelegate.swift */,
+				907B01E82A20AA1F0093FB90 /* Info.plist */,
+			);
+			path = XYTestTools;
+			sourceTree = "<group>";
+		};
 		AC971D188E117DDB902178B4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFFF2E8B80A87C1976F6D01A /* Pods_XYTools_Example.framework */,
-				17364BCE0FE874509CEED292 /* Pods_XYTools_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -151,10 +135,10 @@
 		BBE68A1BEDC766B454761E49 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				58131C54B95A3EC180589907 /* Pods-XYTools_Example.debug.xcconfig */,
-				28040D6E5C0541324E20DB40 /* Pods-XYTools_Example.release.xcconfig */,
-				F3E7C86BA05A2E9BF2B6E675 /* Pods-XYTools_Tests.debug.xcconfig */,
-				B86266E19A411C845F2BE747 /* Pods-XYTools_Tests.release.xcconfig */,
+				2F909EF88124891B68082EE6 /* Pods-XYTestTools_Example.debug.xcconfig */,
+				44F89FEE35B6305B9D898E00 /* Pods-XYTestTools_Example.release.xcconfig */,
+				06F13DCD681D5D4B2E9C8CB4 /* Pods-XYTestTools_Tests.debug.xcconfig */,
+				5EE6B1A682ED9FCB94027A40 /* Pods-XYTestTools_Tests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -162,9 +146,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* XYTools_Example */ = {
+		607FACCF1AFB9204008FA782 /* XYTestTools_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTools_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTestTools_Example" */;
 			buildPhases = (
 				C852109588CCC4B6037E9EC9 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -176,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = XYTools_Example;
+			name = XYTestTools_Example;
 			productName = XYTools;
-			productReference = 607FACD01AFB9204008FA782 /* XYTools_Example.app */;
+			productReference = 607FACD01AFB9204008FA782 /* XYTestTools_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* XYTools_Tests */ = {
+		607FACE41AFB9204008FA782 /* XYTestTools_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTools_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTestTools_Tests" */;
 			buildPhases = (
 				D4A98B8B894F9BB9EFD75102 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
@@ -195,9 +179,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = XYTools_Tests;
+			name = XYTestTools_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* XYTools_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* XYTestTools_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -223,7 +207,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "XYTools" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "XYTestTools" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -237,8 +221,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* XYTools_Example */,
-				607FACE41AFB9204008FA782 /* XYTools_Tests */,
+				607FACCF1AFB9204008FA782 /* XYTestTools_Example */,
+				607FACE41AFB9204008FA782 /* XYTestTools_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,9 +232,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
-				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
-				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				907B01EE2A20AA1F0093FB90 /* Info.plist in Resources */,
+				907B01EC2A20AA1F0093FB90 /* Images.xcassets in Resources */,
+				907B01EA2A20AA1F0093FB90 /* LaunchScreen.xib in Resources */,
+				907B01EB2A20AA1F0093FB90 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,16 +255,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XYTools_Example/Pods-XYTools_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XYTools/XYTools.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-XYTestTools_Example/Pods-XYTestTools_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/XYTestTools/XYTestTools.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYTools.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XYTestTools.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYTools_Example/Pods-XYTools_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XYTestTools_Example/Pods-XYTestTools_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C852109588CCC4B6037E9EC9 /* [CP] Check Pods Manifest.lock */ = {
@@ -297,7 +282,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XYTools_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-XYTestTools_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -319,7 +304,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-XYTools_Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-XYTestTools_Tests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -333,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				907B01ED2A20AA1F0093FB90 /* AppDelegate.swift in Sources */,
+				907B01E92A20AA1F0093FB90 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,26 +336,26 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* XYTools_Example */;
+			target = 607FACCF1AFB9204008FA782 /* XYTestTools_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		607FACD91AFB9204008FA782 /* Main.storyboard */ = {
+		907B01E22A20AA1F0093FB90 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				607FACDA1AFB9204008FA782 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		607FACDE1AFB9204008FA782 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				607FACDF1AFB9204008FA782 /* Base */,
+				907B01E32A20AA1F0093FB90 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		907B01E42A20AA1F0093FB90 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				907B01E52A20AA1F0093FB90 /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -477,14 +462,19 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 58131C54B95A3EC180589907 /* Pods-XYTools_Example.debug.xcconfig */;
+			baseConfigurationReference = 2F909EF88124891B68082EE6 /* Pods-XYTestTools_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 677BV7DV97;
-				INFOPLIST_FILE = XYTools/Info.plist;
+				INFOPLIST_FILE = XYTestTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XYTestTools\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -494,14 +484,19 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 28040D6E5C0541324E20DB40 /* Pods-XYTools_Example.release.xcconfig */;
+			baseConfigurationReference = 44F89FEE35B6305B9D898E00 /* Pods-XYTestTools_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 677BV7DV97;
-				INFOPLIST_FILE = XYTools/Info.plist;
+				INFOPLIST_FILE = XYTestTools/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"XYTestTools\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
@@ -511,8 +506,9 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F3E7C86BA05A2E9BF2B6E675 /* Pods-XYTools_Tests.debug.xcconfig */;
+			baseConfigurationReference = 06F13DCD681D5D4B2E9C8CB4 /* Pods-XYTestTools_Tests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 677BV7DV97;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -529,14 +525,15 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTools_Example.app/XYTools_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTestTools_Example.app/XYTestTools_Example";
 			};
 			name = Debug;
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B86266E19A411C845F2BE747 /* Pods-XYTools_Tests.release.xcconfig */;
+			baseConfigurationReference = 5EE6B1A682ED9FCB94027A40 /* Pods-XYTestTools_Tests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 677BV7DV97;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
@@ -549,14 +546,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTools_Example.app/XYTools_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XYTestTools_Example.app/XYTestTools_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "XYTools" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "XYTestTools" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -565,7 +562,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTools_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTestTools_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -574,7 +571,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTools_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "XYTestTools_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

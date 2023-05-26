@@ -1,0 +1,16 @@
+PODS:
+  - XYTestTools (0.0.1)
+
+DEPENDENCIES:
+  - XYTestTools (from `../`)
+
+EXTERNAL SOURCES:
+  XYTestTools:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYTestTools: 934601e3dbedcdd077ee121df482673b7b8e3b91
+
+PODFILE CHECKSUM: b5601e0022fd30f8e5e7d0d32579d2aa1921f36c
+
+COCOAPODS: 1.12.1
